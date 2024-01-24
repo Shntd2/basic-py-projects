@@ -11,6 +11,5 @@ Completed projects:
         * In hexadecimal format
         * Will generate PNG image of new color thanks to `Image` of `PIL` module 
 
-Announced projects:
-
+### Announced projects:
 * Automailing program (is in development). Will send one Python tip per day by email
