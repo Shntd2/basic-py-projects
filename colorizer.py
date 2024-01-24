@@ -3,12 +3,15 @@ from PIL import ImageColor
 
 
 class Color:
+    """Represents a color with red, green, and blue components"""
     def __init__(self, red, green, blue):
         self.red = min(max(red, 0), 255)
         self.green = min(max(green, 0), 255)
         self.blue = min(max(blue, 0), 255)
 
     def add_color(self, other_color):
+        """Adds two Color objects together 
+        A new Color object represents the sum of the two colors"""
         new_red = self.red + other_color.red
         new_green = self.green + other_color.green
         new_blue = self.blue + other_color.blue
@@ -16,6 +19,8 @@ class Color:
         return Color(new_red, new_green, new_blue)
 
     def subtract_color(self, other_color):
+        """Subtracts one Color object from another
+        A new Color object represents the difference of the two colors"""
         new_red = self.red - other_color.red
         new_green = self.green - other_color.green
         new_blue = self.blue - other_color.blue
@@ -23,13 +28,15 @@ class Color:
         return Color(new_red, new_green, new_blue)
 
     def get_hex_string(self):
+        """Returns the hexadecimal string representation of the color"""
         hex_list = ['{:02x}'.format(x) for x in (self.red, self.green, self.blue)]
         return '#' + ''.join(hex_list)
 
 
 def create_image(com_color):
-	image = Image.new(mode='RGB', size=(500, 500), color=(com_color.red, com_color.green, com_color.blue))
-	image.show()
+    """Creates and displays an image with the specified color"""
+    image = Image.new(mode='RGB', size=(500, 500), color=(com_color.red, com_color.green, com_color.blue))
+    image.show()
 
 
 blue_color = Color(*ImageColor.getrgb('blue'))
