@@ -15,7 +15,7 @@ class Song:
 
 
 class Playlist:
-    """Represents a collection of songs."""
+    """Represents a collection of songs"""
     def __init__(self):
         self.songs = []
 
