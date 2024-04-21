@@ -1,5 +1,4 @@
-# py-projects
-Place for new Python projects
+Python projects repository
 
 ## Current projects:
 * Automailing program. Will divide uploaded text file into chapters and send each chapter by email subscription with a certain frequency
