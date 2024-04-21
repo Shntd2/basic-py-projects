@@ -1,4 +1,4 @@
-	## Project implementation process
+### Project implementation process
 * Define the features and functionalities of web application (described in MDS+AI.canvas) - ==**DONE**==
 * Set up Python Flask development environment on local machine
 	* ==**Flask main tutorials**==
@@ -14,38 +14,35 @@
 			* Login implementation with cookies
 				* User authentication management
 					* Implement user authentication to secure the application
-					* Find out implementation logic 
-						* Where shold be user data stored
-						* Is it needed to bu stored in special e.g. MySQL database 
+                        * Where shold be user data stored
+						* Is it needed to be stored in special e.g. MySQL database 
 						* If yes, how to connect that with apps backend structure using SQLAlchemy 
-						* Use this [guide](https://coda.io/d/_dzY0bThqlVT/Flask-2_surR-#_luG0F) to properly implement connection code-SQLAlchemy-MySQL database 
+						* Use this [guide](https://coda.io/d/_dzY0bThqlVT/Flask-2_surR-#_luG0F) to properly implement connection code-SQLAlchemy-MySQL database
 			* Personal page implementation
 				* Develop subscription management features for users - to subscribe/unsubscribe to daily emails
 					* This function must be availible for user on an ongoing basis from its personal page
 					* Provide options for users to manage their preferences and account settings
 			* Uploading files implementation: [`request.files`](https://coda.io/d/_dfQbJFuP6kM#Flask-objects-and-attributes_tuwAp/r1&view=modal) gives abbility to upload files to the server for for further work. Add all security applets
+	            * Store the uploaded PDF files securely on the server or use cloud storage (e.g., AWS S3, Google Cloud Storage)
+                * Explore the ability not to store downloaded files on the server
 			* Preliminar summaries menu page implementation
 				* Which loads after uploading text-file
-				* Contains of separated chapters of file with short summaries of every chapter
+				* Contains separated chapters of file with short summaries of every chapter
 				* Every chapter can be chosen or not chosen for mailing by user
 				* Add button to choose or unchoose all chapters   
 		* Provide security 
 			* [Secure client-side sessions in Flask app](https://coda.io/d/_dfQbJFuP6kM#Security-ensuring-in-Flask_tuIaO/r2&view=modal)
 			* [Use HTTPS protocol in server connection](https://coda.io/d/_dfQbJFuP6kM#Security-ensuring-in-Flask_tuIaO/r5&view=modal)
 			* Explore [this info block](https://web.dev/explore/secure) to provide security comprehensively  
-* Web application creation
+* Web applications UX/UI creation
 	* Initialize a new project and set up the necessary dependencies
 		* Get the guide of this process
 	* Develop the frontend for user interaction, including the upload form
 		* Get the guide of this process
 		* Consider the possibility of [SQLAlchemy](https://shantdanielyan.slite.com/api/s/F3-fcjCrhd6iAQ/SQLAlchemy) usage in interfacing frontend with backend databases
 			* If it is needed for the project, create Coda page for SQLAlchemy and take info from these sources: https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/; https://www.datacamp.com/tutorial/sqlalchemy-tutorial-examples
-		* Plan the user interface and user experience (done in MDS+AI.canvas)
+		* Plan the user interface and user experience (is in MDS+AI.canvas) - ==**DONE**==
 		* Use design software like Figma for creating high-fidelity mockups and prototypes
-	* Implement backend logic to handle file uploads and storage
-		* Explore connection of this step with provided code example below. Get the guide of this process
-	* Store the uploaded PDF files securely on the server or use cloud storage (e.g., AWS S3, Google Cloud Storage)
-		* Get the guide of this process
 * AI API for text documents summarization
 	* OpenAI API is best suited for this task
 	* This approach involves several steps
