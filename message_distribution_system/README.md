@@ -1,4 +1,4 @@
-### Project implementation process
+## Project implementation process
 * Define the features and functionalities of web application (described in MDS+AI.canvas) - ==**DONE**==
 * Set up Python Flask development environment on local machine
 	* ==**Flask main tutorials**==
