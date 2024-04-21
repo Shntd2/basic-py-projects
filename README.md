@@ -1,9 +1,9 @@
-Python projects repository
+# Python projects repository
 
-## Current projects:
+### Current projects:
 * Automailing program. Will divide uploaded text file into chapters and send each chapter by email subscription with a certain frequency
 
-## Completed projects:
+### Completed projects:
 * Color mixer (colorizer.py). This project produces a new color as a result of mixing RGB basic colors 
     * The user chooses what needs to be done with colors by himself - addition or subtraction 
     * Then the user chooses which two RGB basic colors to add or subtract from each other
@@ -18,4 +18,4 @@ Python projects repository
     * Run next song 
     * Run previous song 
     * Shuffle the order of songs in the playlist
-* This code uploads playlist from provided file (albums.txt)
+    * This code uploads playlist from provided file (albums.txt)
