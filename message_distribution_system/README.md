@@ -14,7 +14,7 @@
 			* Login implementation with cookies
 				* User authentication management
 					* Implement user authentication to secure the application
-                        * Where shold be user data stored
+                        * Where should be user data stored
 						* Is it needed to be stored in special e.g. MySQL database 
 						* If yes, how to connect that with apps backend structure using SQLAlchemy 
 						* Use this [guide](https://coda.io/d/_dzY0bThqlVT/Flask-2_surR-#_luG0F) to properly implement connection code-SQLAlchemy-MySQL database
