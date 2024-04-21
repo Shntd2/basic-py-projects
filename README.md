@@ -18,5 +18,5 @@ Place for new Python projects
     * Shuffle the order of songs in the playlist
 * This code uploads playlist from provided file (albums.txt)
 
-### Announced projects:
-* Automailing program (is in development). Will send one Python tip per day by email
+### Current projects:
+* Automailing program. Will divide uploaded text file into chapters and send each chapter by email subscription with a certain frequency
