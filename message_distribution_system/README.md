@@ -167,9 +167,3 @@ if __name__ == "__main__":
 * Think how to effectively adapt web application to different screen sizes and devices
 ## Users tests
 * Organize for few users test of application in different stages of development
-## Resources
-* https://gemini.google.com/app/b46b00fec05b30d0
-* https://chat.openai.com/c/6c35229d-5a47-4c06-bf15-232042f06b8f
-* https://chat.openai.com/c/4c2af648-3a3c-4920-9bb7-3b7d3d83728f
-* https://gemini.google.com/app/5cf481a53ad28330 
-* https://www.phind.com/search?cache=aqo0ydkihxmq9lhvk6mjqxx4
