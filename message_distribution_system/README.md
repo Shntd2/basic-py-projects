@@ -1,5 +1,5 @@
 ## Structure development sequence
-### Use models.py file to manage direct interactions with the database 
+## Use models.py file to manage direct interactions with the database 
 	* Preliminarily provide connection to MySQL server using SQLAlchemy
 		* Classes here (Models) will represent database tables
 		* Every column of that database tables will have its variable
@@ -8,7 +8,7 @@
 	* Presumably create two databases:
 		* MySQL database where will be stored users data for login (sign in, sign out, change password if forgotten) logic 
 		* NoSQL database for storing in certain order summaries of uploaded PDFs chunks 
-### Use main_page.py file as a welcome page. It will contain
+## Use main_page.py file as a welcome page. It will contain
 	1. Description of the app
 		* What is it for
 		* What are its benefits
@@ -55,7 +55,7 @@
 					* If they're mismatched, output that info correctly in frontend
 				* If entered email is not in registered users table
 					* Output message in front that user with such email is not registered in the application 
-### Use personal_page.py file with personal page of the user
+## Use personal_page.py file with personal page of the user
 	* Here frontend must contain active subscriptions list
 	* And Create new subscription button which should redirect to routes.py - page where user can upload its PDF file
 		* After creating users session, its email address from models.py must be used in backend. So it is needed to connect personal_page.py with models.py and assign to variable recipient users email received from users database
@@ -70,12 +70,12 @@
 	* ai_summarizer.py must send summaries of one PDF file in chronological order to email_service.py. 
 		* This addon should be implemented in send_summary_via_email function
 	* email_service.py will send summaries to recipient as ai_summarizer.py will provide them. It means that ai_summarizer.py will send summaries to email_service.py according to the schedule. So email_service.py is simple: it gets message from ai_summarizer.py and sends it to recipient - one by one
-### Modify pdf_summary.py 
+## Modify pdf_summary.py 
 	* Unify JSON chunks formatting to make them easy for the reader to perceive
 		* Try to use Unstructured.io for that task
 		* Make it ignore non-relevant data: annotations, tables of contents, gratitudes and etc. 
 			* Think about keywords usage, but also search for other methods 
-### Mailing Integration
+## Mailing Integration
 	* Set up an email service provider (e.g., Gmail, SendGrid) for sending emails programmatically
 	* Configure SMTP settings in web application to enable email sending
 	* Create email templates for sending abbreviated chapters
@@ -83,13 +83,13 @@
 		* Implement a scheduler (e.g., cron job, Celery) to send emails daily
 			* Service variants:
 			* https://www.beehiiv.com/
-### Intermediate testing
+## Intermediate testing
 	* Test the web application thoroughly, including file uploads, text summarization, email sending, and scheduled tasks
 	* Perform both functional and usability testing to ensure a smooth user experience
-### Deploy web application to a hosting platform
+## Deploy web application to a hosting platform
 	* Choose a hosting provider for deploying your web application (e.g., Heroku, AWS, DigitalOcean)
 	* Configure the deployment environment and deploy application
-### Monitoring and Maintenance
+## Monitoring and Maintenance
 	* Implement logging and monitoring solutions to track application performance and errors
 ## Tasks to solve in perspective
 * Think about active subscription limitations for every user for not to take up too much space on server
