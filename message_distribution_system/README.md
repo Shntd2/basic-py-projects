@@ -91,7 +91,11 @@
 ## Monitoring and Maintenance
 	* Implement logging and monitoring solutions to track application performance and errors
 ## Tasks to solve in perspective
+```
 * Think about active subscription limitations for every user for not to take up too much space on server
 * Think how to effectively adapt web application to different screen sizes and devices
+```
 ## Users tests
+```
 * Organize for few users test of application in different stages of development
+```
