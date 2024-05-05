@@ -1,4 +1,4 @@
-## Structure development sequence
+# Projects development sequence
 ## Use models.py file to manage direct interactions with the database 
 	* Preliminarily provide connection to MySQL server using SQLAlchemy
 		* Classes here (Models) will represent database tables
@@ -82,7 +82,6 @@
 	* Configure daily email sending
 		* Implement a scheduler (e.g., cron job, Celery) to send emails daily
 			* Service variants:
-			* https://www.beehiiv.com/
 ## Intermediate testing
 	* Test the web application thoroughly, including file uploads, text summarization, email sending, and scheduled tasks
 	* Perform both functional and usability testing to ensure a smooth user experience
