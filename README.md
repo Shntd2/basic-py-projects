@@ -11,7 +11,7 @@
     * In result code will output combined color: 
         * In tuple format with three digits in it - containing level of red, green and blue 
         * In hexadecimal format
-        * Will generate PNG image of new color thanks to `Image` of `PIL` module 
+        * Will generate PNG image of new color thanks to `Image` module of `PIL` library 
 
 * Music player (player.py). Is created to textually simulate behaviour of music player with the most basic functions. Here user can:
     * Play current song 
