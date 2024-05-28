@@ -1,8 +1,4 @@
-# Python projects repository
-
-### Projects in development:
-* Automailing program. Will divide uploaded text file into chapters and send each chapter by email subscription with a certain frequency
-    * Is located in [MDS-project repository](https://github.com/Shntd2/MDS-project.git) 
+# Basic Python projects repository
 
 ### Completed projects:
 * Color mixer (colorizer.py). This project produces a new color as a result of mixing RGB basic colors 
