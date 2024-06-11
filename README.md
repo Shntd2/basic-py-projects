@@ -1,6 +1,6 @@
 # Basic Python projects repository
 
-## Completed projects
+### Completed projects
 
 ### Tinting machine (tinting_machine.py) produces a new color as a result of mixing RGB basic colors
 
