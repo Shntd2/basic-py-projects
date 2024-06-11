@@ -2,13 +2,13 @@
 
 ### Completed projects
 
-* Color mixer (colorizer.py). This project produces a new color as a result of mixing RGB basic colors
+* Еinting machine (tinting_machine.py) produces a new color as a result of mixing RGB basic colors
   * The user chooses what needs to be done with colors by himself - addition or subtraction
-  * Then the user chooses which two RGB basic colors to add or subtract from each other
+  * Then which of two RGB basic colors to add or subtract from each other
   * In result code will output combined color:
     * In tuple format with three digits in it - containing level of red, green and blue
     * In hexadecimal format
-    * Will generate PNG image of new color thanks to `Image` module of `PIL` library
+    * PNG image of new color thanks to `Image` module of `PIL` library
 
 * Music player (player.py). Is created to textually simulate behaviour of music player with the most basic functions. Here user can:
   * Play current song
