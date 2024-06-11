@@ -2,7 +2,7 @@
 
 ### Completed projects
 
-* Еinting machine (tinting_machine.py) produces a new color as a result of mixing RGB basic colors
+* Tinting machine (tinting_machine.py) produces a new color as a result of mixing RGB basic colors
   * The user chooses what needs to be done with colors by himself - addition or subtraction
   * Then which of two RGB basic colors to add or subtract from each other
   * In result code will output combined color:
