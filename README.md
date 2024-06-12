@@ -6,7 +6,7 @@
 
 * The user chooses what needs to be done with colors by himself - addition or subtraction
 * Then which of two RGB basic colors to add or subtract from each other
-* In result code will output combined color:
+* In result the code will output combined color:
   * In tuple format with three digits in it - containing level of red, green and blue
   * In hexadecimal format
   * PNG image of new color thanks to `Image` module of `PIL` library
